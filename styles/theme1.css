@@ -1,0 +1,232 @@
+body {
+    background-color: #e3f4fb;
+    font-family: sans-serif;
+}
+
+body section {
+    display: block;
+    font-size: 18px;
+    width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #faf9d1;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: #e4deb4;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 15px;
+    margin: 15px 20px;
+    font-size: 72px;
+    font-weight: lighter;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+nav {
+    text-align: center;
+    font-weight: lighter;
+}
+
+nav ul {
+    padding: 0px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 10px;
+    margin: 5px 20px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+nav ul li:hover{
+    background-color: #d0e4f2;
+    border-style: dotted;
+    border-width: 0.25px;
+    border-color: #b2d6fb;
+}
+
+a {
+    color: #342203;
+    text-decoration: none;
+}
+
+strong {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+p {
+    font-style: italic;
+    font-size: 14px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.error_message {
+
+  color: #e33c3c;
+  padding-left: 10px;
+
+  font-size: 14px;
+}
+
+.hidden {
+    display: none;
+}
+
+/* .review {
+    width: 1000px;
+} */
+
+#review p {
+    color: #e33c3c;
+    text-align: right;
+    margin-right: 80px;
+}
+
+#review div {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#review div label {
+    padding-right: 10px;
+    width: 200px;
+    text-align: right;
+}
+
+#review div p {
+    color: #e33c3c;
+    margin: 0px;
+    font-style: normal;
+    font-weight: bolder;
+}
+
+#review input{
+    margin-right: 2px;;
+}
+
+#review select {
+    margin-right: 2px;
+}
+
+#review .comments {
+    display: inline-block;
+}
+
+#review .comments label {
+    display: block;
+}
+
+#review .comments textarea {
+    margin-left: 210px;
+}
+
+#review .comments .error_message {
+    padding: 0px;
+    margin-left: 210px;
+}
+
+#review button.submit {
+    margin-top: 15px;
+    margin-left: 650px;
+}
+
+
+@media (max-width: 600px) {
+
+h1 {
+    font-size: 45px;
+}
+
+h2 {
+    margin-bottom: 15px;
+    padding-top: 20px;
+    font-size: 30px;
+}
+
+nav ul li {
+    display: block;
+    border-bottom: solid;
+    border-width: 0.1px;
+    margin-top: 10px;
+    padding: 5px;
+    border-color: #6f9df6;
+}
+
+body section {
+    margin-top: 5px;
+    width: 80%;
+}
+
+#review p {
+    margin-right: 20px;
+}
+
+#review div p {
+    text-align: left;
+}
+
+#review div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+#review div label {
+    width: auto;
+    text-align: left;
+}
+
+#review div input {
+    width: 90%;
+}
+
+#review div span {
+    padding-left: 0px;
+}
+
+#review .select select {
+    border: solid;
+    border-width: 0.5px;
+}
+
+#review .comments label {
+    display: flex;
+    margin: 0px;
+}
+
+#review .comments textarea {
+    width:  100%;
+    margin: 0px;
+}
+
+#review .comments .error_message {
+    padding: 0px;
+    margin-left: 210px;
+}
+
+#review button.submit {
+    margin-top: 15px;
+    margin-left: 230px;
+    border: solid;
+    border-width: 0.5px;
+}
+
+}
